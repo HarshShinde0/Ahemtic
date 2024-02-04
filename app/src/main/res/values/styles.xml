@@ -1,0 +1,38 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#11cb5f</item>
+        <item name="colorAccent">#11cb5f</item>
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+        <item name="android:colorBackground">#121212</item>
+        <item name="colorSurface">#121212</item>
+        <item name="colorOnPrimary">#000000</item>
+        <item name="colorOnBackground">#FFFFFF</item>
+        <item name="colorOnSurface">#FFFFFF</item>
+        <item name="colorOnError">#000000</item>
+    </style>
+
+    <style name="FullscreenTheme" parent="AppTheme">
+        <item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+    </style>
+
+    <style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+
+    <style name="NoActionBar.FullScreen" parent="@style/Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#11cb5f</item>
+        <item name="colorAccent">#11cb5f</item>
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+        <item name="android:colorBackground">#121212</item>
+        <item name="colorSurface">#121212</item>
+        <item name="colorOnPrimary">#000000</item>
+        <item name="colorOnBackground">#FFFFFF</item>
+        <item name="colorOnSurface">#FFFFFF</item>
+        <item name="colorOnError">#000000</item>
+    </style>
+</resources>

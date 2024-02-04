@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Vibe</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="slider_desc">seek bar</string>
+    <string name="launch_activity">Launch Activity</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="thumbnail">show thumbnail</string>
+    <string name="search_text">Search</string>
+    <string name="episode_thumbnail">episode thumbnail</string>
+    <string name="switch_audio_track">switch audio track</string>
+    <string name="toggle_play">toggle play</string>
+    <string name="title"></string>
+    <string name="search">Search titles</string>
+    <string name="episode_name">Episode Name</string>
+    <string name="settings">Settings</string>
+    <string name="library">Library</string>
+    <string name="cache_size">Cache size</string>
+    <string name="clear_video_cache">Clear video cache</string>
+    <string name="sign_out">Sign out</string>
+    <string name="cache_option_text">*Caching allows you to play videos you\'ve streamed before to be available offline.</string>
+    <string name="toggle_rotate_lock">toggle rotate lock</string>
+    <string name="add_to_library_button">add to library button</string>
+    <string name="show_thumbnail">show thumbnail</string>
+    <string name="reload_catalogue">Reset catalogue</string>
+    <string name="reload_text">Reload the catalogue to get latest shows.</string>
+    <string name="go_back_to_previous_activity">go back to previous activity</string>
+    <string name="reset_user_data">Restore to default</string>
+    <string name="server_client_id">511377925028-ar09unh2rtfs8h0vh2u08p8nn4i9plqm.apps.googleusercontent.com</string>
+</resources>

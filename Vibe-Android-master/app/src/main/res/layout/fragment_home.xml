@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/home_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".ui.home.HomeFragment">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/search_text_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="15dp"
+            android:elevation="5dp"
+            android:hint="@string/search"
+            app:boxCornerRadiusBottomEnd="10dp"
+            app:boxCornerRadiusBottomStart="10dp"
+            app:boxCornerRadiusTopEnd="10dp"
+            app:boxCornerRadiusTopStart="10dp"
+            app:boxStrokeWidth="0dp"
+            app:boxStrokeWidthFocused="0dp"
+            app:endIconMode="clear_text"
+            app:startIconContentDescription="search_icon"
+            app:startIconDrawable="@drawable/ic_round_search_24">
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/search_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textImeMultiLine"
+                android:imeOptions="actionDone"
+                android:singleLine="true" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/card_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="?attr/actionBarSize" />
+
+    </LinearLayout>
+    <ProgressBar
+        android:id="@+id/data_loading"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+</FrameLayout>
